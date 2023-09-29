@@ -68,3 +68,73 @@ public class estudiante {
     }
 }
 
+*clase cuenta bancaria
+package pkg11_graciagarcia;
+
+import java.util.Scanner;
+
+
+public class cuentabancaria {
+     //atributos
+    int a;
+    int b;
+    int total;
+    
+    // metodos 
+    public void sumar() {
+
+        total = a + b;
+        System.out.println(total);
+    }
+    
+    public void multiplicar() {
+
+        total= a * b;
+        System.out.println(total);
+    }
+    
+    public void ingresardatos(){
+        
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Ingrese el valor (numero): ");
+        b = scanner.close();
+        System.out.print("Ingrese el valor (numero): ");
+        a = scanner.nextInt();
+        scanner.close();
+        }
+}
+
+*clase auto
+package pkg11_graciagarcia;
+
+import java.util.Scanner;
+
+public class auto {
+     //atributos
+    int a ;
+    int b;
+    int total;
+    
+    // metodos 
+    public void sumarkilometros() {
+
+        total = a + b;
+        System.out.println(total);
+    }
+    
+    public void restarkilomtroenuso() {
+
+        total= a * b;
+        System.out.println(total);
+    }
+    
+    public void ingresardatos(){
+        
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Ingrese el valor (numero): ");
+        b = scanner.next();
+        System.out.print("Ingrese el valor (numero): ");
+        a = scanner.nextInt();
+        scanner.close();
+        }
+}
