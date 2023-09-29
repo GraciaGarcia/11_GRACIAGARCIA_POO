@@ -1,0 +1,70 @@
+*clase principal
+
+package pkg11_graciagarcia;
+
+
+public class Main_S05_11GraciaGarcia {
+
+
+    public static void main(String[] args) {
+        estudiante estudiante1 = new estudiante ();
+        String pregunta = null;
+        
+        estudiante1.corre = "el estudiante corre"+pregunta+"mt";
+        estudiante1.salta = "el estudiante salta"+pregunta+"para divertirse";            
+            
+    }
+    
+}
+
+*clase libro
+package pkg11_graciagarcia;
+
+import javax.swing.JOptionPane;
+
+public class libro {
+        //atributos
+    String lee;
+    String canta;
+    
+    public void habla(){
+        String habla = null;
+        System.out.println("el libro"+habla+"en el cuarto"); 
+    }
+    
+    public void corre(){
+        System.out.println("corre");
+    }
+
+    public void pregunta(){
+    
+        String habla = JOptionPane.showInputDialog(null, "cuantohabla el libro");
+        String corre = JOptionPane.showInputDialog(null, "Ingrese cuanto corre");
+    }
+}
+
+*clase estudiante
+package pkg11_graciagarcia;
+
+import javax.swing.JOptionPane;
+
+public class estudiante {
+        //atributos
+    String corre;
+    String salta;
+    
+    public void niño(){
+        System.out.println("el perro"+corre+"en el pasto"); 
+    }
+    
+    public void niña(){
+        System.out.println("salta");
+    }
+
+    public void pregunta(){
+    
+        corre = JOptionPane.showInputDialog(null, "cuantos kilometros corre");
+        String saltar = JOptionPane.showInputDialog(null, "Ingrese cuanto salta");
+    }
+}
+
