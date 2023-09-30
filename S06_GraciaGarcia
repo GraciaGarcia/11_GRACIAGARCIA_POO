@@ -1,0 +1,67 @@
+* clase calculadora 
+package S06_11GraciaGarcia;
+
+/**
+ *
+ * @author Gracia
+ */
+public class calculadora {
+     //atributos
+    int fecha;
+    int edad;
+    
+    //metodos
+    public static void persona (String[] args) {
+        
+        System.out.println("hola yo soy");
+    }
+    //sobrecarga de constructores 
+    public calculadora(int  _fecha ,int _edad){
+        
+     fecha = _fecha;
+       edad = _edad; 
+}
+    public void mostrarDatos(){
+        
+    System.out.println("la fecha nombre del estudiante es:"+fecha);
+    System.out.println("la edad del estudiante es:"+edad);
+   
+    }
+    //sobrecarga de metodos 
+    
+    /*metodo  con valores de retorno*/
+     public int  suma(){
+      return fecha*edad;
+      
+     }
+}
+
+*clase estudiante
+ //atributos
+    String nombre;
+    int edad;
+    
+    //metodos
+    public static void hola (String[] args) {
+        
+        System.out.println("hola");
+    }
+    //sobrecarga de constructores 
+    public estudiante(String  _nombre,int _edad){
+        
+     nombre = _nombre;
+       edad = _edad; 
+}
+    public void mostrarDatos(){
+        
+    System.out.println("el nombre del estudiante es:"+nombre);
+    System.out.println("la edad del estudiante es:"+edad);
+   
+    }
+    //sobrecarga de metodos 
+    
+    /*metodo  con valores de retorno*/
+     public int  suma(){
+      return nombre*edad;
+      
+     }
