@@ -25,5 +25,8 @@ public class MainS07_11 {
         persona2.saludar();
         persona2.decirEdad();
         persona2.cambiarAltura(1.70);
+        
+        
+        
     }
 }
