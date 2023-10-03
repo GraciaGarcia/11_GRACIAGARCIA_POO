@@ -13,7 +13,6 @@ public class calculadora2 {
      /*metodo de retorno*/
      public int  suma(){
       return a*b;
-      
      }
      
 }
